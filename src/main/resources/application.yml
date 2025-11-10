@@ -10,5 +10,9 @@ spring:
           search-paths: config/
 
 server:
-  port:
-    8888
+  port: 8888
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
