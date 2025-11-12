@@ -1,4 +1,4 @@
-name: CI Config Server
+name: CI-config-server
 
 on:
   push:

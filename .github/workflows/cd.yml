@@ -1,8 +1,10 @@
-name: CD - config-server
+name: CD-config-server
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_run:
+    workflows: ["CI-config-server"]
+    types:
+      - completed
 
 jobs:
   docker:
