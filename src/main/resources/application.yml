@@ -8,6 +8,8 @@ spring:
         git:
           uri: https://github.com/jp-codeAB/config-arka.git
           search-paths: config/
+          clone-on-start: true
+          default-label: main
 
 server:
   port: 8888
